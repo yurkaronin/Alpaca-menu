@@ -1,0 +1,42 @@
+// base
+@import "./base/root";
+@import "./base/fonts";
+@import "./base/normalize";
+@import "./base/global";
+@import "./base/support";
+
+// Эффекты
+@import "./effects/click";
+
+// blocks
+@import "./blocks/simplebar";
+@import "./blocks/wrapper";
+
+@import "./blocks/menu-button";
+
+// sections
+@import "./sections/header";
+@import "./sections/main";
+@import "./sections/footer";
+
+// Активные состояния элементов
+// @import "./activity/mobile-nav-open";
+
+
+@media (max-width: 1504px) {}
+
+@media (max-width: 1379px) {}
+
+@media (max-width: 1279px) {}
+
+@media (max-width: 1023px) {}
+
+@media (max-width: 950px) {}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 550px) {}
+
+@media (max-width: 450px) {}
+
+@media (max-width: 374px) {}

@@ -1,0 +1,10 @@
+.simplebar-scrollbar::before {
+  background-color: var(--green);
+  // opacity: 1;
+}
+.simplebar-track.simplebar-vertical {
+  right: 5px;
+}
+.simplebar-visible::before {
+  opacity: 1 !important;
+}
