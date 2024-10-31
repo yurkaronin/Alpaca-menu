@@ -1,26 +1,30 @@
 // base
-@import "./base/root";
-@import "./base/fonts";
-@import "./base/normalize";
-@import "./base/global";
-@import "./base/support";
+@use "./base/root";
+@use "./base/fonts";
+@use "./base/normalize";
+@use "./base/global";
+@use "./base/support";
 
 // Эффекты
-@import "./effects/click";
+@use "./effects/click";
 
 // blocks
-@import "./blocks/simplebar";
-@import "./blocks/wrapper";
+@use "./blocks/simplebar";
+@use "./blocks/wrapper";
+@use "./blocks/section";
 
-@import "./blocks/menu-button";
+@use "./blocks/menu-button";
+
+
+@use "./blocks/logotype";
+@use "./blocks/phone";
 
 // sections
-@import "./sections/header";
-@import "./sections/main";
-@import "./sections/footer";
+@use "./sections/header";
+@use "./sections/footer";
 
 // Активные состояния элементов
-// @import "./activity/mobile-nav-open";
+@use "./activity/header-sticky";
 
 
 @media (max-width: 1504px) {}

@@ -5,6 +5,12 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/svg/favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="date=no">
+  <meta name="format-detection" content="address=no">
+  <meta name="format-detection" content="email=no">
+
   <title>Альпака меню</title>
 </head>
 
@@ -25,7 +31,7 @@
 
         </div>
 
-        <div class="header__col header__navegation">
+        <div class="header__col header__navigation">
 
           <nav class="main-nav">
             <ul class="main-nav__list">
@@ -105,19 +111,26 @@
   </header>
 
   <main class="main">
-    <img src="/img/main-bg.jpg" alt="Шикарная Альпака" loading="lazy">
-    <div id="app">
-      <h1>Hello Vite!</h1>
-      <div class="card">
-        <button id="counter" type="button"></button>
+
+    <section class="section">
+      <div class="wrapper">
+        <div id="app">
+          <h1>Hello Vite!</h1>
+          <div class="card">
+            <button id="counter" type="button"></button>
+          </div>
+          <p class="read-the-docs">Click on the Vite logo to learn more</p>
+        </div>
       </div>
-      <p class="read-the-docs">Click on the Vite logo to learn more</p>
-    </div>
+    </section>
+
   </main>
 
   <footer class="footer">
     <div class="wrapper">
-      <p>Проект реализован в рамках тестового задания. Информация на сайте не является публичной офертой, носит исключительно информационный характер и может быть изменена по усмотрению компании. Изображения товаров на фотографиях, представленных в каталоге на сайте, могут отличаться от оригиналов. Использование материалов данного сайта без разрешения правообладателя запрещено.</p>
+      <p class="footer__text">Проект реализован в рамках тестового задания. Информация на сайте не является публичной офертой, носит
+        исключительно информационный характер и может быть изменена по усмотрению компании. Использование материалов
+        данного сайта без разрешения правообладателя запрещено.</p>
     </div>
   </footer>
 

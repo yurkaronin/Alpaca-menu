@@ -1,6 +1,12 @@
 import './css/main.scss';
 import { setupCounter } from './counter.js'
 
+// Глобальные переменные
+import './js/global.js';
+// Скрипты
+import './js/just-main-margin';
+import './js/header-sticky.js';
+
 // document.querySelector('#app').innerHTML = `
 //   <div>
 //     <a href="https://vite.dev" target="_blank">

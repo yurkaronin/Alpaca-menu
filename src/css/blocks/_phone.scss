@@ -1,0 +1,54 @@
+.phone {
+  &__link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1;
+    color: #ffffff;
+
+    display: grid;
+    gap: 13px;
+    max-width: max-content;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+  }
+
+  &__icon {
+    color: #5bc12c;
+    width: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+
+    svg {
+      width: 100%;
+      height: auto;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+      scale: 1.4;
+    }
+  }
+
+  @media (max-width: 767px) {
+    &__link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      padding: 8px;
+      // border-radius: 50%;
+      // border: 1px solid;
+    }
+    &__text {
+      display: none;
+    }
+    &__icon {
+      width: 24px;
+    }
+  }
+}
