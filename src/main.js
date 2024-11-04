@@ -6,6 +6,7 @@ import './js/global.js';
 // Скрипты
 import './js/just-main-margin';
 import './js/header-sticky.js';
+import './js/main-navigation.js';
 
 // document.querySelector('#app').innerHTML = `
 //   <div>
