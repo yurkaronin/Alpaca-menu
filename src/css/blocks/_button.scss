@@ -1,0 +1,26 @@
+.button {
+  cursor: pointer;
+  display: flex;
+  max-width: max-content;
+  font-weight: 500;
+  border-radius: 4px;
+  text-transform: uppercase;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #029AD7;
+  background-color: #029AD7;
+  color: #000;
+  padding: 12px 20px;
+  font-size: 14px;
+  line-height: 1;
+  transition: all 0.3s;
+
+  &:hover,
+  &:active {
+    border: 1px solid #0a435a;
+    background-color: #0a435a;
+    color: #fff;
+  }
+
+}

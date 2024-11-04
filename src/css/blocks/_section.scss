@@ -8,5 +8,14 @@
   background-size: cover;
   background-position: top center;
 
-  min-height: 100vh;
+
+
+  &__content {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
 }

@@ -1,12 +1,11 @@
 import './css/main.scss';
 import { setupCounter } from './counter.js'
 
-// Глобальные переменные
-import './js/global.js';
 // Скрипты
-import './js/just-main-margin';
 import './js/header-sticky.js';
 import './js/main-navigation.js';
+import './js/mobile-navigation.js';
+import './js/mobile-nav-open.js';
 
 // document.querySelector('#app').innerHTML = `
 //   <div>

@@ -50,20 +50,12 @@ input[type="radio"].visually-hidden {
   transition: all 0.3s;
 }
 
-input,
-textarea {
-  max-width: 100%;
-  width: 100%;
+
+.main {
+  margin-top: 80px;
 }
 
-.to-right {
-  max-width: max-content !important;
-  margin-left: auto !important;
-  @media (max-width: 767px) {
-    max-width: initial !important;
-    margin-left: initial !important;
-  }
-}
+
 @media (max-width: 767px) {
   .mobile-full {
     max-width: 100% !important;

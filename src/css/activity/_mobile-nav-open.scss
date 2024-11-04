@@ -1,0 +1,11 @@
+.mobile-nav-open {
+  overflow: hidden;
+
+  .mobile-nav {
+    visibility: initial;
+    opacity: initial;
+    pointer-events: initial;
+    top: 0;
+  }
+
+}
