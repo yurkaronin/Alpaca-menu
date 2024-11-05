@@ -25,6 +25,7 @@
   @media (max-width: 1023px) {
     &__grid {
       grid-template-columns: auto 1fr auto;
+      gap: 20px;
     }
     &__navigation {
       display: none;
@@ -39,7 +40,8 @@
   }
   @media (max-width: 767px) {
     &__grid {
-      gap: 20px;
+      grid-template-columns: 1fr auto auto;
+      gap: 0px;
     }
   }
 }

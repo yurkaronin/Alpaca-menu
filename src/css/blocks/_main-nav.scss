@@ -1,5 +1,4 @@
 .main-nav {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
   line-height: 133%;
@@ -9,8 +8,6 @@
   &__list {
     list-style: none;
     padding: 0;
-    margin: 0;
-    max-width: 100%;
     width: 100%;
 
     display: grid;
@@ -67,7 +64,6 @@
 
   &__link {
     width: 100%;
-    display: block;
     text-decoration: none;
     color: inherit;
     padding: 8px 18px;
@@ -91,8 +87,6 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    max-width: 100%;
-    width: 100%;
     position: absolute;
     top: calc(100% + 20px);
     left: 0;
@@ -156,11 +150,9 @@
 
   &__sub-link {
     width: 100%;
-    display: block;
     text-decoration: none;
     color: inherit;
     padding: 8px 18px;
-    transition: color 0.3s;
     display: inline-block;
     font-size: 16px;
     transition: all 0.3s;
@@ -194,8 +186,6 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    max-width: 100%;
-    width: 100%;
     position: absolute;
     bottom: 0;
     left: calc(100% + 22px);
@@ -224,12 +214,10 @@
 
   &__sub-sub-link {
     width: 100%;
-    display: block;
     text-decoration: none;
     color: inherit;
     padding: 8px 12px;
     padding-left: 18px;
-    transition: color 0.3s;
     display: inline-block;
     font-size: 16px;
     transition: all 0.3s;

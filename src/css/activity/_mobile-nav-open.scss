@@ -5,7 +5,20 @@
     visibility: initial;
     opacity: initial;
     pointer-events: initial;
-    top: 0;
   }
+  .menu-button {
+    span {
+      background-color: transparent;
+    }
 
+    span:after {
+      transform: rotate(45deg);
+      width: 24px;
+    }
+
+    span:before {
+      transform: rotate(-45deg);
+      width: 24px;
+    }
+  }
 }

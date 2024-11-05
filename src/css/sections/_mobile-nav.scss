@@ -3,33 +3,43 @@
 
   @media (max-width: 1023px) {
     display: block;
-
-    background-color: #131417;
     color: #fafafa;
-    padding-top: var(--header-height);
-    padding-bottom: 45px;
-    height: 100vh;
-    overflow-y: auto;
+    width: 100%;
     position: fixed;
-    top: -120vh;
+    top: 0;
     right: 0;
-    width: 374px;
     z-index: 99;
     transition: all 0.3s;
-
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
-
-
-
-
-    // прочее
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 18px;
     line-height: 133%;
     color: #fafafa;
+
+    &::before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(19, 20, 23, 0.5);
+    }
+
+    &__content {
+      width: 374px;
+      height: 100vh;
+      margin-left: auto;
+      padding-top: var(--header-height);
+      padding-bottom: 45px;
+      background-color: #131417;
+      overflow-y: auto;
+    }
 
     // Первый уровень
     &__list {
@@ -41,7 +51,6 @@
       width: 100%;
       grid-template-columns: repeat(1, 1fr);
       gap: 0;
-
     }
 
     &__item {
@@ -88,7 +97,6 @@
             transition: all 0.3s;
           }
         }
-
       }
     }
 
@@ -99,7 +107,6 @@
       color: inherit;
       padding: 18px 18px;
       transition: all 0.3s;
-
     }
 
     // Второй уровень
@@ -122,7 +129,6 @@
         height: 1px;
         background-color: #131417;
       }
-
     }
 
     &__sub-item {
@@ -147,7 +153,6 @@
       }
 
       &:has(.mobile-nav__sub-sub-list) {
-
         .mobile-nav__sub-link {
           position: relative;
           padding-right: calc(8px + 18px + 13px);
@@ -169,22 +174,18 @@
             transition: all 0.3s;
           }
         }
-
       }
     }
 
     &__sub-link {
       width: 100%;
-      display: block;
       text-decoration: none;
       color: inherit;
       padding: 18px 18px;
-      transition: color 0.3s;
       display: inline-block;
       font-size: 16px;
       transition: all 0.3s;
     }
-
 
     // третий уровень
     &__sub-sub-list {
@@ -238,16 +239,13 @@
 
     &__sub-sub-link {
       width: 100%;
-      display: block;
       text-decoration: none;
       color: inherit;
       padding: 18px 18px;
       padding-left: 18px;
-      transition: color 0.3s;
       display: inline-block;
       font-size: 16px;
       transition: all 0.3s;
-
     }
   }
 }
